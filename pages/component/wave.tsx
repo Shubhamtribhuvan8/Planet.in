@@ -10,9 +10,13 @@ const Wave: React.FC = () => {
               <h4>About Us</h4>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
-                metus euismod, faucibus metus ut, semper nibh. Aenean euismod
-                justo eu enim dapibus suscipit.
+                Discover the universe's mesmerizing beauty and unravel its
+                mysteries with Planet.io. Explore our captivating planet image
+                collection and delve into a wealth of space information. Join
+                our passionate community of space enthusiasts and embark on a
+                cosmic journey of curiosity and inspiration. Immerse yourself in
+                the wonders of space with Planet.io - your gateway to the
+                infinite expanse above.
               </p>
             </div>
 
@@ -109,7 +113,10 @@ const Wave: React.FC = () => {
             </g>
           </svg>
         </div>
-        <p className="copyright">© 2023 All Rights Reserved</p>
+        <p className="copyright">
+          © 2023 All Rights Reserved | Made with Shubham Tribhuvan
+          <i className="fa fa-heart" aria-hidden="true"></i>
+        </p>
       </div>
     </>
   );

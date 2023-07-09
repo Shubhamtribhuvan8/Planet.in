@@ -38,7 +38,7 @@ const Home: NextPage = () => {
       ) : (
         <>
           <Navbar />
-          <hr style={{ visibility: "hidden", marginTop: "5%" }} />
+          <hr style={{ visibility: "hidden", marginTop: "0%" }} />
           <Avtar />
           <hr style={{ visibility: "hidden" }} />
           <Explore />

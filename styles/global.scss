@@ -14,7 +14,7 @@ body {
     position: relative;
     overflow: hidden;
     font-size: 120%; /* zoom */
-    height: 37rem;
+    height: 41rem;
     width: 81rem;
     position: relative;
     left: 9px;
@@ -246,7 +246,7 @@ body {
 
 #header {
     position: absolute;
-    top: -12px;
+    top: 5px;
     left: 0;
     width: 100%;
     padding: 25px 0px;
@@ -927,3 +927,7 @@ background-color: white;
 }
 
 //border bar
+:where(.css-dev-only-do-not-override-ed5zg0).ant-progress-line {
+  position: relative;
+  width: 99% !important;
+}
