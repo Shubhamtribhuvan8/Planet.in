@@ -12,7 +12,7 @@ const Avtar: React.FC = () => (
       />
       <div className="content">
         <h1>Overview | Saturn: The Ringed Planet</h1>
-        <div className="infos">
+        {/* <div className="infos">
           <svg
             width="141"
             height="29"
@@ -41,7 +41,7 @@ const Avtar: React.FC = () => (
               fill="#58AAE8"
             ></path>
           </svg>
-        </div>
+        </div> */}
 
         <p className="synopsis">
           Saturn is unique among the planets. It is not the only planet to have

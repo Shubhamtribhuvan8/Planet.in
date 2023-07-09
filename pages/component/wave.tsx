@@ -26,7 +26,7 @@ const Wave: React.FC = () => {
               <ul>
                 <li>
                   <a href="#">
-                    <i className="fa fa-angle-right"></i> Subscription
+                    <i className="fa fa-angle-right"></i> Scientific Details
                   </a>
                 </li>
 
@@ -114,7 +114,7 @@ const Wave: React.FC = () => {
           </svg>
         </div>
         <p className="copyright">
-          © 2023 All Rights Reserved | Made with Shubham Tribhuvan
+          © 2023 All Rights Reserved | Designed by Shubham Tribhuvan
           <i className="fa fa-heart" aria-hidden="true"></i>
         </p>
       </div>
