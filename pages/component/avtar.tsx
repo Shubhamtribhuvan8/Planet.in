@@ -1,14 +1,17 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Avtar: React.FC = () => (
   <>
     <article className="movie-card">
-      <img
+      <LazyLoadImage
+        effect="blur"
         src="https://images.hdqwalls.com/download/saturn-rings-dark-5k-le-3840x2400.jpg"
-        alt="Avatar wallpaper"
+        alt=""
+        style={{ width: "100%" }}
       />
-
       <div className="content">
-        <h1>Avatar: The Way of Water</h1>
+        <h1>Overview | Saturn: The Ringed Planet</h1>
         <div className="infos">
           <svg
             width="141"
@@ -38,15 +41,13 @@ const Avtar: React.FC = () => (
               fill="#58AAE8"
             ></path>
           </svg>
-
-          <span>·&nbsp;&nbsp;2022&nbsp;&nbsp;·&nbsp;&nbsp;3h12</span>
         </div>
 
         <p className="synopsis">
-          Jake Sully lives with his newfound family formed on the extrasolar
-          moon Pandora. Once a familiar threat returns to finish what was
-          previously started, Jake must work with Neytiri and the army of the
-          Na'vi race to protect their home.
+          Saturn is unique among the planets. It is not the only planet to have
+          rings – made of chunks of ice and rock – but none are as spectacular
+          or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn
+          is a massive ball made mostly of hydrogen and helium.
         </p>
 
         <div className="icons">

@@ -17,8 +17,8 @@ const Slider: React.FC = () => (
             }}
           ></div>
           <div className="card__content">
-            <p className="card__category">Category</p>
-            <h3 className="card__heading">Example Card Heading</h3>
+            <p className="card__category">Prithvi</p>
+            <h3 className="card__heading">Tellus Mater or Terra Mater</h3>
           </div>
         </a>
         <a className="card">
@@ -30,8 +30,8 @@ const Slider: React.FC = () => (
             }}
           ></div>
           <div className="card__content">
-            <p className="card__category">Category</p>
-            <h3 className="card__heading">Example Card Heading</h3>
+            <p className="card__category">MotherLand</p>
+            <h3 className="card__heading">Sixth planet from the Sun</h3>
           </div>
         </a>
         <a className="card">
@@ -43,8 +43,10 @@ const Slider: React.FC = () => (
             }}
           ></div>
           <div className="card__content">
-            <p className="card__category">Category</p>
-            <h3 className="card__heading">Example Card Heading</h3>
+            <p className="card__category">Moon</p>
+            <h3 className="card__heading">
+              The Moon is Earth's only natural satellite
+            </h3>
           </div>
         </a>
         <a className="card">
@@ -56,8 +58,10 @@ const Slider: React.FC = () => (
             }}
           ></div>
           <div className="card__content">
-            <p className="card__category">Category</p>
-            <h3 className="card__heading">Example Card Heading</h3>
+            <p className="card__category">Wolf Moon</p>
+            <h3 className="card__heading">
+              subconscious world, our emotions, heart, and the love
+            </h3>
           </div>
         </a>
       </div>

@@ -7,6 +7,8 @@ import Navbar from "./component/navbar";
 import Explore from "./component/explore";
 import Text from "./component/text";
 import Wave from "./component/wave";
+import Card from "./component/card";
+import Border from "./component/border";
 
 const Home: NextPage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,6 +38,8 @@ const Home: NextPage = () => {
           <hr style={{ visibility: "hidden", marginTop: "3px" }} />
           <Slider />
           <Text />
+          <Border />
+          <Card />
           <Wave />
         </>
       )}

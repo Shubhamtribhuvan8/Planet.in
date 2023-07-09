@@ -32,7 +32,7 @@ const Text: React.FC = () => {
           For The
         </div>
         <div className="block-reveal" style={blockRevealStyles3}>
-          Curious
+          Curious.
         </div>
       </h1>
     </>
