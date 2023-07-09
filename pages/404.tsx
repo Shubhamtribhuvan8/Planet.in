@@ -12,7 +12,7 @@ const Error: React.FC<{}> = () => {
     return () => {
       clearTimeout(redirectHome);
     };
-  }, []);
+  }, [router]);
 
   return (
     <>
